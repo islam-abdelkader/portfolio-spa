@@ -31,6 +31,7 @@ export default {
         loadMessages(locale)
 
         this.$store.dispatch('lang/setLocale', { locale })
+        console.log(this.locales)
       }
     }
   }

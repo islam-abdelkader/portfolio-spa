@@ -63,7 +63,7 @@
 }
 
 /* Font size for large devices */
-@media screen and (min-width: 968px) {
+/* @media screen and (min-width: 968px) {
     :root {
         --big-font-size: 3rem;
         --h1-font-size: 2.25rem;
@@ -73,13 +73,12 @@
         --small-font-size: .875rem;
         --smaller-font-size: .813rem;
     }
-}
+} */
 
 /*=========================================================*/
 /*================== Variables Dark theme =================*/
 /*=========================================================*/
-body.dark-theme{
-    /* HSL color mode */
+/* body.dark-theme{
     --first-color-second: hsl(var(--hue-color), 30%, 8%);
     --title-color: hsl(var(--hue-color), 8%, 95%);
     --text-color: hsl(var(--hue-color), 8%, 75%);
@@ -88,7 +87,7 @@ body.dark-theme{
     --container-color: hsl(var(--hue-color), 29%, 16% );
     --scroll-bar-color: hsl(var(--hue-color), 12%, 48%);
     --scroll-thumb-color: hsl(var(--hue-color), 12%, 36%);
-}
+} */
 
 /*=========================================================*/
 /*=================== Button Dark/Light ===================*/
@@ -111,7 +110,7 @@ body.dark-theme{
 /*=========================================================*/
 /*========================== BASE =========================*/
 /*=========================================================*/
-*{
+/* *{
     box-sizing: border-box;
     padding: 0;
     margin: 0;
@@ -144,12 +143,12 @@ a{
 img{
     max-width: 100%;
     height: auto;
-}
+} */
 
 /*=========================================================*/
 /*================== REUSABLE CSS CLASSES =================*/
 /*=========================================================*/
-.section{
+/* .section{
     padding: 2rem 0 4rem;
 }
 
@@ -166,7 +165,7 @@ img{
 .section__title,
 .section__subtitle{
     text-align: center;
-}
+} */
 
 /*=========================================================*/
 /*========================= LAYOUT ========================*/
@@ -254,7 +253,7 @@ img{
 }
 
 .nav__icon{
-    font-size: 1.2rem;   
+    font-size: 1.2rem;
 }
 
 .nav__close{
@@ -372,6 +371,14 @@ img{
 /*=========================================================*/
 /*======================== BUTTONS ========================*/
 /*=========================================================*/
+/* .button--white{
+    background-color: #FFF;
+    color: var(--first-color);
+}
+
+.button--white:hover{
+    background-color: #FFF;
+} */
 .button{
     display: inline-block;
     background-color: var(--first-color);
@@ -391,14 +398,6 @@ img{
     transition: var(--main-transition) ;
 }
 
-/* .button--white{
-    background-color: #FFF;
-    color: var(--first-color);
-}
-
-.button--white:hover{
-    background-color: #FFF;
-} */
 .button--white{
     background-color: transparent;
     border: 1px solid #FFF;
@@ -543,7 +542,7 @@ img{
 
 .skills__close .skills__list{
     height: 0;
-    overflow: hidden;   
+    overflow: hidden;
 }
 
 .skills__open .skills__list{
@@ -1337,7 +1336,7 @@ img{
 
     .footer__bg{
         padding: 3rem 0 3.5rem;
-    } 
+    }
     .footer__links{
         flex-direction: row;
         column-gap: 2rem;
@@ -1378,11 +1377,11 @@ img{
     .swiper-portfolio-icon{
         font-size: 3.5rem;
     }
-    
+
     .swiper-button-prev{
         left: -3.5rem;
     }
-    
+
     .swiper-button-next{
         right: -3.5rem;
     }

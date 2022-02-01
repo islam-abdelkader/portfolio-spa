@@ -36,5 +36,11 @@
   "resend_verification_link": "إعادة إرسال رباط تأكيد؟",
   "failed_to_verify_email": "خطأ في تأكيد البريد الإلكتروني.",
   "verify_email_address": "تم إرسال بريد الإلكتروني يحتوي على رابط التأكيد.",
-  "islam":"إسلام"
+  "islam":"إسلام",
+  "about":"عنا",
+  "skills":"مهارات",
+  "services":"خدمات",
+  "portfolio":"الأعمال",
+  "contact":"التواصل"
+
 }
